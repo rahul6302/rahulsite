@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts 
+    script(src='../static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+    section#intro
+      div Welcome to Dance Academy 
+      div.small Dance is an Art
+    section#sponsors
+      h2 Our Sponsors 
+      div#spons
+        img(src="/static/sponsers/l1.png", alt="logo1.png" class="sponsersclass")
+        img(src="/static/sponsers/l2.png", alt="logo2.png" class="sponsersclass")
+        img(src="/static/sponsers/l3.png", alt="logo3.png" class="sponsersclass")
+        img(src="/static/sponsers/l4.png", alt="logo4.png" class="sponsersclass")
+
+    section#missions
+      h2 Our Mission
+      div.card 
+          h3 Dance is an Art
+          div.box
+            div.card-img
+              img(src="/static/dance 2.png", alt="dance pic")
+            div.content
+              p Best Hip Hop Academy in the World
+
+      div.card 
+          h3 Dance Perfection
+          div.box
+            div.card-img
+              img(src="/static/dance1.png", alt="dance pic")
+            div.content
+              p Best Hip Hop Academy in the World
+
+      div.card 
+          h3 Expert Teaching
+          div.box
+            div.card-img
+              img(src="/static/dance4.png", alt="dance pic")
+            div.content
+              p Best Hip Hop Academy in the World
+              

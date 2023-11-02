@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.myform{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.myinput{
+    outline: none;
+    border-radius: 7px;
+    border: 2px solid #e98d8d;
+    font-size: 15px;
+    padding: 10px;
+    width: 40%;
+    margin: 10px;
+}
+.btn{
+    margin: 20px;
+    outline: none;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 3px;
+    width: 7%;
+    font-size: 17px;
+    color: white;
+    background: #ff5c34;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+.container{
+    min-height: 77vh;
+    margin: 40px 0px;
+}
+.container h1{
+font-family: 'Skranji', cursive;
+font-size: 42px;
+text-align: center;
+}

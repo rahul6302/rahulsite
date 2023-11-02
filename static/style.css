@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&display=swap');
+
+#logo{
+    display: flex;
+    color:white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+
+}
+#logo img {
+    height:36px;
+    filter: invert(1);
+}
+.box{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.card-img{
+    height: 121px;
+    margin: 2px 7px;
+    /* padding: 0 14px; */
+    /* height: inherit; */
+
+}
+.content p{
+    font-size: 16px;
+}
+.content{
+    padding: 6px 2px;
+
+}
+.card-img img{
+    height: inherit;
+}
+#navbar{
+    background-color:rgb(255, 55, 55);
+    padding: 10px 14px;
+    /* font-size: 22px; */
+    font-family: 'Teko', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li {
+    list-style: none;
+}
+#navbar li a {
+    color: white;
+  text-decoration: none;  
+  padding: 17px 34px;
+  font-size: 20px;
+}
+#navbar li :hover {
+    color: rgb(143, 140, 140);
+}
+#intro div.small{
+    font-size: 30px;
+}
+#intro {
+    padding-bottom:66px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Skranji', cursive;
+    font-size: 40px;
+    background: center / cover no-repeat url("/static/bg1.jpg");
+height: 400px;
+background-color: red;
+}
+#missions{
+
+    width: 70%;
+    margin: auto;
+    height: 300px;
+    display: block;
+}
+#missions h2{
+    text-align: center;
+    padding-top: 24px;
+    font-size: 30px;
+    font-family: 'Skranji', cursive;
+
+    }
+.card{
+    border: 2px solid black;
+    width: 30%;
+    margin: 20px 14px;
+    height: 188px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+.card h3{
+    text-align: center;
+    margin:10px;
+    font-size: 18px;
+}
+#sponsors{
+    height: 320px;
+    background-color: rgb(255, 201, 201);
+
+}
+#sponsors h2{
+text-align: center;
+padding-top: 24px;
+font-size: 32px;
+font-family: 'Skranji', cursive;
+}
+.sponsersclass{
+    height: 80%;
+    margin: 20px;
+
+}
+#spons{
+    height: 194px;
+    max-width: 1000px;
+    margin: 11px auto;
+}
+#foot {
+    margin: 24px;
+    height: 40px;
+    background-color: green;
+color:white;
+display: flex;
+font-size: 14px;
+justify-content: center;
+align-items: center;
+
+}
